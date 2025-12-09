@@ -1,0 +1,71 @@
+:root {
+    --darkbluuecolor: #010017;
+    --bluecolor: #010118;
+    --greycolor: #D9D9D9;
+    --boxred: rgba(222, 27, 27, 0.41);
+    --boxgrey: rgba(5, 5, 5, 0.20);
+    --whitecolor: #FFFFFF;
+
+}
+
+*,
+*::after *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/*.wrapper {
+    max-width: 1604px;
+    margin: 0 auto;
+
+
+}
+*/
+.logo {
+    height: 48px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+.imgbtn {
+    width: 80.598px;
+    height: 67px;
+}
+
+.btn {
+    padding: 12px 42px;
+    border-radius: 32px;
+    background: #D9D9D9;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.btn.light::before {
+    content: url('./images/Menu\ Hamburger.svg');
+    position: absolute;
+    left: 22px;
+
+}
+
+header {
+    background: #010017;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header , #features {
+    background-color: #010118;
+}
